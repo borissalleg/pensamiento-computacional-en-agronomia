@@ -2,8 +2,16 @@ site_name: Pensamiento Computacionalpara la Agronomia
 site_description: Documentación del curso de Pensamiento Computacional
 nav:
   - Index : index.md
-  - Semana 1 : 
-     - Contenido : semana1/contenidosemana1.md
+  - Sesion  1 : 
+     - Contenido : sesion1.md
+     - Arduino : arduino.md
+     - Tinkercad : tinkercard.md
+  - Sesion  2 : 
+    - Contenido :  sesion2.md
+    - Pseudocodigo: pseudocodigo.md
+    - Diagrama de flujo : diagrama.md
+  - Sesion  3 : sesion3.md
+
 
 
 theme:
