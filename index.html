@@ -1,0 +1,1102 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentación del curso de Pensamiento Computacional">
+      
+      
+      
+      
+      
+        <link rel="next" href="sesion1/">
+      
+      
+      <link rel="icon" href="assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Pensamiento Computacionalpara la Agronomia</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#introduccion-al-pensamiento-computacional-en-la-ingenieria-agronomica" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="." title="Pensamiento Computacionalpara la Agronomia" class="md-header__button md-logo" aria-label="Pensamiento Computacionalpara la Agronomia" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Pensamiento Computacionalpara la Agronomia
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="deep-purple"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="orange"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Pensamiento Computacionalpara la Agronomia" class="md-nav__button md-logo" aria-label="Pensamiento Computacionalpara la Agronomia" data-md-component="logo">
+      
+  <img src="assets/logo.png" alt="logo">
+
+    </a>
+    Pensamiento Computacionalpara la Agronomia
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plan-de-sesiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      📅 Plan de Sesiones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📅 Plan de Sesiones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sesion-1-introduccion-al-pensamiento-computacional-en-la-agricultura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 1: Introducción al Pensamiento Computacional en la Agricultura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-2-descomposicion-de-problemas-agronomicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 2: Descomposición de Problemas Agronómicos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-3-reconocimiento-de-patrones-en-datos-agricolas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 3: Reconocimiento de Patrones en Datos Agrícolas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-4-abstraccion-y-modelado-de-sistemas-agricolas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 4: Abstracción y Modelado de Sistemas Agrícolas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-5-fundamentos-de-algoritmos-y-logica-pseudocodigo-y-bloques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 5: Fundamentos de Algoritmos y Lógica (Pseudocódigo y Bloques)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-6-introduccion-a-python-para-ingenieros-agronomos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 6: Introducción a Python para Ingenieros Agrónomos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-7-estructuras-de-datos-en-python-i-listas-y-diccionarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 7: Estructuras de Datos en Python I (Listas y Diccionarios)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-8-estructuras-de-datos-en-python-ii-y-control-de-flujo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 8: Estructuras de Datos en Python II y Control de Flujo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-9-funciones-en-python-y-modularidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 9: Funciones en Python y Modularidad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-10-introduccion-a-la-manipulacion-de-datos-con-pandas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 10: Introducción a la Manipulación de Datos con Pandas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-11-visualizacion-de-datos-y-conexion-con-iot-tinkercad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 11: Visualización de Datos y Conexión con IoT (Tinkercad)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-12-integracion-presentacion-de-avances-y-tinkercad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 12: Integración, Presentación de Avances y Tinkercad
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sesion  1
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sesion  1
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contenido
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="arduino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Arduino
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tinkercard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tinkercad
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sesion  2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Sesion  2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contenido
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="pseudocodigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pseudocodigo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="diagrama/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagrama de flujo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sesion  3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sesion  4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sesion  5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sesion6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sesion  6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#plan-de-sesiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      📅 Plan de Sesiones
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📅 Plan de Sesiones">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sesion-1-introduccion-al-pensamiento-computacional-en-la-agricultura" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 1: Introducción al Pensamiento Computacional en la Agricultura
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-2-descomposicion-de-problemas-agronomicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 2: Descomposición de Problemas Agronómicos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-3-reconocimiento-de-patrones-en-datos-agricolas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 3: Reconocimiento de Patrones en Datos Agrícolas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-4-abstraccion-y-modelado-de-sistemas-agricolas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 4: Abstracción y Modelado de Sistemas Agrícolas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-5-fundamentos-de-algoritmos-y-logica-pseudocodigo-y-bloques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 5: Fundamentos de Algoritmos y Lógica (Pseudocódigo y Bloques)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-6-introduccion-a-python-para-ingenieros-agronomos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 6: Introducción a Python para Ingenieros Agrónomos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-7-estructuras-de-datos-en-python-i-listas-y-diccionarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 7: Estructuras de Datos en Python I (Listas y Diccionarios)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-8-estructuras-de-datos-en-python-ii-y-control-de-flujo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 8: Estructuras de Datos en Python II y Control de Flujo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-9-funciones-en-python-y-modularidad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 9: Funciones en Python y Modularidad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-10-introduccion-a-la-manipulacion-de-datos-con-pandas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 10: Introducción a la Manipulación de Datos con Pandas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-11-visualizacion-de-datos-y-conexion-con-iot-tinkercad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 11: Visualización de Datos y Conexión con IoT (Tinkercad)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sesion-12-integracion-presentacion-de-avances-y-tinkercad" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sesión 12: Integración, Presentación de Avances y Tinkercad
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="introduccion-al-pensamiento-computacional-en-la-ingenieria-agronomica">🌱 Introducción al Pensamiento Computacional en la Ingeniería Agronómica</h1>
+<blockquote>
+<p><em>"La agricultura del futuro no solo se cultiva en el campo, sino también en el código."</em></p>
+</blockquote>
+<p>Este curso está diseñado para estudiantes y profesionales de la ingeniería agronómica que desean integrar el <strong>pensamiento computacional</strong> y las <strong>herramientas digitales</strong> (como Python y simuladores IoT como Tinkercad) en la resolución de problemas agrícolas reales. A lo largo de 12 sesiones, los participantes aprenderán a descomponer problemas complejos, identificar patrones en datos agrícolas, modelar sistemas, diseñar algoritmos y construir simulaciones prácticas que conectan el mundo físico con el digital.</p>
+<p>El eje central del curso es un <strong>proyecto integrador</strong> donde cada equipo identificará un problema agronómico, lo descompondrá, diseñará una solución simulada en Tinkercad, y analizará datos generados mediante Python. La combinación de teoría, práctica y simulación busca formar ingenieros agrónomos con habilidades computacionales aplicadas, listos para enfrentar los desafíos de la agricultura 4.0.</p>
+<hr />
+<h2 id="plan-de-sesiones">📅 Plan de Sesiones</h2>
+<hr />
+<h3 id="sesion-1-introduccion-al-pensamiento-computacional-en-la-agricultura"><strong>Sesión 1: Introducción al Pensamiento Computacional en la Agricultura</strong></h3>
+<p><strong>Contenido:</strong>
+- Definición de pensamiento computacional.
+- Componentes clave: 
+  - Descomposición
+  - Reconocimiento de patrones
+  - Abstracción
+  - Algoritmos
+- Importancia y aplicaciones en la ingeniería agronómica.
+- Presentación del proyecto integrador.</p>
+<p><strong>Actividad:</strong>
+- Lluvia de ideas sobre problemas agrícolas.
+- Formación de equipos.
+- Introducción visual a Tinkercad: Mostrar ejemplos de simulaciones agrícolas.</p>
+<hr />
+<h3 id="sesion-2-descomposicion-de-problemas-agronomicos"><strong>Sesión 2: Descomposición de Problemas Agronómicos</strong></h3>
+<p><strong>Contenido:</strong>
+- Técnicas para dividir un problema complejo (ej: optimizar el uso de agua) en subproblemas manejables.</p>
+<p><strong>Actividad:</strong>
+- Taller práctico: Equipos descomponen el problema de su proyecto y presentan un diagrama de flujo.
+- Identificar componentes físicos (sensores/actuadores) que podrían ser simulados en Tinkercad.</p>
+<hr />
+<h3 id="sesion-3-reconocimiento-de-patrones-en-datos-agricolas"><strong>Sesión 3: Reconocimiento de Patrones en Datos Agrícolas</strong></h3>
+<p><strong>Contenido:</strong>
+- Identificación de patrones en datos de clima, suelos y crecimiento de cultivos.</p>
+<p><strong>Actividad:</strong>
+- Análisis visual de datasets agrícolas (gráficos simples) para identificar tendencias.
+- Relacionar patrones con triggers para actuadores en Tinkercad (ej: si temperatura &gt; 30°C → activar ventilador).</p>
+<hr />
+<h3 id="sesion-4-abstraccion-y-modelado-de-sistemas-agricolas"><strong>Sesión 4: Abstracción y Modelado de Sistemas Agrícolas</strong></h3>
+<p><strong>Contenido:</strong>
+- Creación de modelos simplificados de sistemas agrícolas.</p>
+<p><strong>Actividad:</strong>
+- Ejercicio: Crear un modelo abstracto (diagrama o pseudocódigo) de un sistema de riego.
+- Diseñar esquema de circuito en Tinkercad: sensor de humedad, bomba, microcontrolador.</p>
+<hr />
+<h3 id="sesion-5-fundamentos-de-algoritmos-y-logica-pseudocodigo-y-bloques"><strong>Sesión 5: Fundamentos de Algoritmos y Lógica (Pseudocódigo y Bloques)</strong></h3>
+<p><strong>Contenido:</strong>
+- Conceptos básicos de algoritmos.
+- Estructuras de control: condicionales y bucles en pseudocódigo.</p>
+<p><strong>Actividad:</strong>
+- Diseñar algoritmos en pseudocódigo para tareas agrícolas.
+- Traducir un algoritmo simple (ej: encender LED si sensor detecta oscuridad) al entorno de bloques de Tinkercad y simularlo.</p>
+<hr />
+<h3 id="sesion-6-introduccion-a-python-para-ingenieros-agronomos"><strong>Sesión 6: Introducción a Python para Ingenieros Agrónomos</strong></h3>
+<p><strong>Contenido:</strong>
+- Instalación de Python.
+- Sintaxis básica: variables, tipos de datos, operadores, entrada/salida.</p>
+<p><strong>Actividad:</strong>
+- Práctica guiada: Escribir scripts simples que realicen cálculos agronómicos.
+- Comparar lógica de un script en Python con la lógica de bloques en Tinkercad.</p>
+<hr />
+<h3 id="sesion-7-estructuras-de-datos-en-python-i-listas-y-diccionarios"><strong>Sesión 7: Estructuras de Datos en Python I (Listas y Diccionarios)</strong></h3>
+<p><strong>Contenido:</strong>
+- Uso de listas y diccionarios para organizar datos agrícolas.</p>
+<p><strong>Actividad:</strong>
+- Taller: Crear y manipular listas y diccionarios con datos de cultivos y suelos.
+- Discutir cómo los datos de sensores simulados en Tinkercad podrían almacenarse en estas estructuras para análisis.</p>
+<hr />
+<h3 id="sesion-8-estructuras-de-datos-en-python-ii-y-control-de-flujo"><strong>Sesión 8: Estructuras de Datos en Python II y Control de Flujo</strong></h3>
+<p><strong>Contenido:</strong>
+- Profundización en bucles (<code>for</code>, <code>while</code>) y condicionales (<code>if</code>, <code>elif</code>, <code>else</code>) aplicados a estructuras de datos.</p>
+<p><strong>Actividad:</strong>
+- Ejercicio: Programa que analice una lista de rendimientos de cultivos.
+- Simular en Tinkercad un sistema que recopile datos (ej: lecturas de humedad cada hora) y pensar en su procesamiento en Python.</p>
+<hr />
+<h3 id="sesion-9-funciones-en-python-y-modularidad"><strong>Sesión 9: Funciones en Python y Modularidad</strong></h3>
+<p><strong>Contenido:</strong>
+- Definición y llamada de funciones.
+- Reutilización de código y modularidad.</p>
+<p><strong>Actividad:</strong>
+- Crear funciones reutilizables para tareas agronómicas (ej: <code>calcularRiego</code>, <code>analizarPH</code>).
+- En Tinkercad, crear “funciones” o subrutinas con bloques de código para acciones repetitivas (ej: <code>regarPlanta</code>, <code>medirTemperatura</code>).</p>
+<hr />
+<h3 id="sesion-10-introduccion-a-la-manipulacion-de-datos-con-pandas"><strong>Sesión 10: Introducción a la Manipulación de Datos con Pandas</strong></h3>
+<p><strong>Contenido:</strong>
+- Introducción a la librería <code>pandas</code>.
+- Creación y manipulación de <code>DataFrames</code>.</p>
+<p><strong>Actividad:</strong>
+- Taller: Cargar un dataset agrícola, explorar columnas, filtrar datos.
+- Plantear cómo los datos generados por simulaciones en Tinkercad podrían cargarse en un <code>DataFrame</code> para análisis posterior.</p>
+<hr />
+<h3 id="sesion-11-visualizacion-de-datos-y-conexion-con-iot-tinkercad"><strong>Sesión 11: Visualización de Datos y Conexión con IoT (Tinkercad)</strong></h3>
+<p><strong>Contenido:</strong>
+- Creación de gráficos básicos con <code>matplotlib</code> / <code>seaborn</code>.
+- Introducción práctica a IoT con Tinkercad.</p>
+<p><strong>Actividad: Sesión Práctica Dual</strong>
+1. Generar gráficos a partir del dataset cargado en Python.
+2. Taller de Tinkercad IoT: Equipos construyen y programan una simulación simple relacionada con su proyecto (ej: activar bomba si sensor de humedad marca valor bajo).
+   - Deben tomar datos de la simulación (manual o por serial) y graficarlos en Python.</p>
+<hr />
+<h3 id="sesion-12-integracion-presentacion-de-avances-y-tinkercad"><strong>Sesión 12: Integración, Presentación de Avances y Tinkercad</strong></h3>
+<p><strong>Contenido:</strong>
+- Revisión de conceptos clave.
+- Integración de pensamiento computacional, Python y simulación IoT.</p>
+<p><strong>Actividad:</strong>
+- <strong>Cada equipo presenta un avance significativo del proyecto integrador, que DEBE INCLUIR:</strong>
+  1. El problema agronómico y su descomposición.
+  2. Un algoritmo o pseudocódigo de la solución.
+  3. Un primer análisis o visualización de datos en Python.
+  4. Una simulación funcional en Tinkercad que demuestre la lógica de control.
+- Retroalimentación grupal y del docente.</p>
+<hr />
+<p>✅ <em>Este plan de sesiones busca no solo enseñar herramientas técnicas, sino fomentar una mentalidad de resolución de problemas mediante la lógica computacional, aplicada directamente al contexto agrícola. ¡Bienvenidos a la revolución digital del campo!</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pie" >
+        
+        
+          
+          <a href="sesion1/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Contenido">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              <div class="md-ellipsis">
+                Contenido
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Boris Salleg
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.footer", "navigation.sections", "content.tabs.link", "content.code.annotate", "content.tooltips"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
