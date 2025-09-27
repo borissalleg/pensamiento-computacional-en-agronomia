@@ -14,6 +14,7 @@ Si te gusta crear, diseñar y experimentar con tecnología, **Tinkercad** es una
 - Simular circuitos con Arduino (ideal para automatizar riegos, medir humedad del suelo, etc.).
 - Programar con bloques (como Scratch) o con código real (C++ para Arduino).
 
+![alt text](image.png)
 ---
 
 ## 🧩 ¿Cómo está compuesto Tinkercad?
@@ -24,8 +25,8 @@ Tinkercad tiene 3 grandes áreas:
 2. **Circuitos** → Para armar y simular circuitos electrónicos.
 3. **Código** → Para programar tus proyectos con bloques o texto.
 
-![Tinkercad Interface](https://i.imgur.com/5XKJZQl.png)  
-*(Interfaz de Tinkercad mostrando las 3 áreas principales)*
+![Tinkercad Interface](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuM2bBR6MvGkEWiDHC3QIExSauYpONTwAyxQ&s)  
+*(Interfaz de Tinkercad y Arduino)*
 
 ---
 
@@ -40,39 +41,14 @@ Tinkercad tiene 3 grandes áreas:
 
 ¡Aquí viene lo más chévere! Puedes usar Tinkercad para crear soluciones agrícolas inteligentes, como:
 
-### 💡 Ejemplo 1: Sistema de riego automático con sensor de humedad
-
-- Diseñas en 3D el soporte del sensor.
-- Simulas el circuito con Arduino + sensor de humedad + bomba de agua.
-- Programas con bloques para que active el riego cuando la tierra esté seca.
-
-![Sistema de riego automático en Tinkercad](https://i.imgur.com/8LmR2cP.jpg)
-
-> 📹 **Video tutorial: Cómo hacer un riego automático en Tinkercad**  
-> 👉 [Ver video en YouTube](https://www.youtube.com/watch?v=example1) *(enlace de ejemplo)*
-
----
-
-### 💡 Ejemplo 2: Invernadero inteligente
-
-- Diseñas en 3D una maqueta de invernadero.
-- Simulas sensores de temperatura y luz.
-- Programas ventiladores o luces LED que se encienden automáticamente.
-
-![Invernadero inteligente en Tinkercad](https://i.imgur.com/9TpQYVW.jpg)
-
-> 📹 **Video tutorial: Invernadero con sensores en Tinkercad**  
-> 👉 [Ver video en YouTube](https://www.youtube.com/watch?v=example2) *(enlace de ejemplo)*
-
----
 
 ## 📚 Recursos útiles
 
 ### 📹 Videos recomendados en YouTube:
 
-1. [Introducción a Tinkercad para principiantes](https://www.youtube.com/watch?v=example3)
-2. [Cómo simular Arduino en Tinkercad](https://www.youtube.com/watch?v=example4)
-3. [Proyecto agrícola: Riego automático paso a paso](https://www.youtube.com/watch?v=example5)
+1. [Introducción a Tinkercad para principiantes - Lista de Reproducción ](https://youtu.be/DDPnvmlLNq4?si=gmtnEyKNKXoaRPAB)
+2. [Cómo simular Arduino en Tinkercad  - Lista de Reproducción](https://youtu.be/ypb2PaJzLQY?si=3qou4ymK2ruL7Ovh)
+3. [Proyecto agrícola: Riego automático paso a paso](https://youtu.be/Be8HPnYg-N4?si=w9KemtfbgJkJkS9q)
 
 ---
 
@@ -105,5 +81,4 @@ Con Tinkercad, no solo aprendes electrónica y programación, ¡sino que tambié
 ---
 
 > ✍️ Este manual fue creado para estudiantes curiosos y creativos como tú.  
-> 🔄 Actualizado: Mayo 2025  
-> 📄 Autor: Tu compañero de innovación agrícola
+> 🔄 Actualizado: Septiembre  2025  

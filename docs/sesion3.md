@@ -38,13 +38,14 @@ Porque en el campo, **todo se repite**: ciclos de cultivo, estaciones, comportam
 
 ### 📊 Dataset Agrícolas que Vamos a Analizar (¡Reales y Descargables!)
 
-Te presentamos 3 datasets sencillos para empezar. Todos están en formato **CSV** (se abren en Excel o Python) y son ideales para principiantes.
+Principales conjuntos de datos agrícolas en Kaggle 🌾 [2023]
+[Enlace a la pagina](https://www.kaggle.com/discussions/general/446746)
 
-| Dataset | Descripción | ¿Qué patrón puedes buscar? | Enlace de Descarga |
-| :------ | :---------- | :------------------------- | :----------------- |
-| **1. Clima Diario - Estación La Niña (Colombia)** | Datos de temperatura, humedad y precipitación diaria durante 1 año. | ¿Hay días de la semana o meses donde siempre hace más calor? ¿Cuándo suele llover más? | [Descargar CSV](https://raw.githubusercontent.com/your-repo/clima-agro/main/clima_lanina_2023.csv) *(simulado para ejemplo)* |
-| **2. Rendimiento de Maíz vs. Lluvia** | Rendimiento (ton/ha) de maíz en diferentes parcelas según los mm de lluvia recibidos en el ciclo. | ¿Existe una relación entre lluvia y rendimiento? ¿Cuál es el rango óptimo de lluvia? | [Descargar CSV](https://raw.githubusercontent.com/your-repo/agro-data/main/maiz_lluvia.csv) |
-| **3. Detección de Plaga “Mosca Blanca”** | Registro de apariciones de mosca blanca en un cultivo de tomate durante 60 días, con temperatura y humedad diaria. | ¿La plaga aparece más cuando la temperatura está entre X y Y grados? ¿O cuando la humedad es alta? | [Descargar CSV](https://raw.githubusercontent.com/your-repo/agro-data/main/mosca_blanca_tomate.csv) |
+Datos Abiertos Agricola y Fertilizantes
+[Enlace a la pagina](https://www.datos.gov.co/en/widgets/y2zk-c694)
 
-> 💡 *Tip del profe:* No necesitas analizarlos todos hoy. Elige **UNO** que se relacione con el problema de tu proyecto.
+Datos Abiertos Ministerio de Agricultura
+[Enlace a la pagina](https://www.minagricultura.gov.co/Paginas/Datos-Abiertos.aspx)
+
+> 💡 *Tip :* No necesitas analizarlos todos hoy. Elige **UNO** que se relacione con el problema de tu proyecto.
 

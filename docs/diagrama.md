@@ -65,11 +65,11 @@ Tienes un sensor que mide la humedad. Si está por debajo de 30%, se riega. Si n
 
 #### 🔹 Representación en texto (para entender la lógica)
 
-```plaintext
-[INICIO]
-    ↓
-[LEER humedad del suelo]
-    ↓
-{¿Humedad < 30%?} —SÍ→ [Activar riego] → [FIN]
-               ↓ NO
-        [No hacer nada] → [FIN]
+
+    [INICIO]
+        ↓
+    [LEER humedad del suelo]
+        ↓
+    {¿Humedad < 30%?} —SÍ→ [Activar riego] → [FIN]
+                ↓ NO
+            [No hacer nada] → [FIN]
